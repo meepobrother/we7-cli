@@ -20,7 +20,7 @@ npm install -g we7-cli
 
 ```
 // package.json
-
+"title": "模块生成工具",
 "entry": [{
     "title": "首页",
     "do": "index"
