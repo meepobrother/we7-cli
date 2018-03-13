@@ -17,3 +17,16 @@ npm install -g we7-cli
 
 ### we7 i || we7 init
 - 根据package.json，初始化模块
+
+```
+// package.json
+
+"entry": [{
+    "title": "首页",
+    "do": "index"
+}],
+"menu": [{
+    "title": "首页",
+    "do": "index"
+}]
+```

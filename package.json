@@ -1,11 +1,12 @@
 {
   "name": "we7-cli",
   "modulename": "We7-cli",
-  "version": "1.0.7",
-  "description": "模块生成命令行工具",
+  "version": "1.0.8",
+  "description": "用于模块生成的一个命令行工具",
+  "title": "模块生成工具",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "git": "git add . && git commit -m 'update' && git push origin master"
   },
   "bin": {
     "we7": "./bin/we7.js"

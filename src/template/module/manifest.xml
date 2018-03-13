@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns="http://www.we7.cc" versionCode="">
 	<application setting="false">
-		<name><![CDATA[{{description}}]]></name>
+		<name><![CDATA[{{title}}]]></name>
 		<identifie><![CDATA[{{name}}]]></identifie>
 		<version><![CDATA[{{version}}]]></version>
 		<type><![CDATA[business]]></type>
