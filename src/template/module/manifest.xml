@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.we7.cc" versionCode="">
+	<application setting="false">
+		<name><![CDATA[{{description}}]]></name>
+		<identifie><![CDATA[{{name}}]]></identifie>
+		<version><![CDATA[{{version}}]]></version>
+		<type><![CDATA[business]]></type>
+		<ability><![CDATA[{{description}}]]></ability>
+		<description><![CDATA[{{description}}]]></description>
+		<author><![CDATA[{{author}}]]></author>
+		<url><![CDATA[https://github.com/meepobrother/{{name}}#readme]]></url>
+	</application>
+	<platform>
+		<subscribes>
+		</subscribes>
+		<handles>
+			<message type="text" />
+		</handles>
+		<rule embed="false" />
+		<card embed="false" />
+		<supports>
+			<item type="app" />
+		</supports>
+	</platform>
+	<bindings>
+		<cover>
+			{{#each cover}}
+			<entry title="{{title}}" do="{{do}}" state="" direct="" />
+			{{/each}}
+		</cover>
+		<menu>
+			{{#each menu}}
+			<entry title="{{title}}" do="{{do}}" state="" direct="" />
+			{{/each}}
+		</menu>
+	</bindings>
+	<permissions></permissions>
+	<install><![CDATA[install.php]]></install>
+	<uninstall><![CDATA[uninstall.php]]></uninstall>
+	<upgrade><![CDATA[upgrade.php]]></upgrade>
+</manifest>

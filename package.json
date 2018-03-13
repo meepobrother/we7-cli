@@ -1,0 +1,37 @@
+{
+  "name": "we7-cli",
+  "modulename": "We7-cli",
+  "version": "1.0.7",
+  "description": "模块生成命令行工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "we7": "./bin/we7.js"
+  },
+  "homepage": "https://github.com/meepobrother/we7-meepo-hunli#readme",
+  "author": "imeepos",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.15.0",
+    "fs-extra": "^5.0.0",
+    "git-clone": "^0.1.0",
+    "handlebars": "^4.0.11",
+    "shelljs": "^0.8.1",
+    "tracer": "^0.8.12"
+  },
+  "cover": [
+    {
+      "title": "首页",
+      "do": "index"
+    }
+  ],
+  "menu": [
+    {
+      "title": "首页",
+      "do": "index"
+    }
+  ]
+}

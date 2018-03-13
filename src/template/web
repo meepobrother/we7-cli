@@ -1,0 +1,4 @@
+<?php
+global $_W, $_GPC;
+$this->checkWebDo("{{name}}");
+return $this->template('web/index');
