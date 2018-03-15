@@ -18,6 +18,9 @@ npm install -g we7-cli
 }]
 ```
 
+### we7 wi
+- 初始化一个带小程序的项目
+
 ### we7 m index || we7 mobile index
 - 在模块目录【版本号/inc/mobile】创建index.inc.php
 
@@ -29,3 +32,4 @@ npm install -g we7-cli
 
 ### we7 o settings || we7 open settings
 - 在模块目录【版本号/open】创建settings.open.php
+

@@ -83,7 +83,6 @@ function mkpages(params) {
             __dirname + '/template/wxapp/we7/pages/index/index.wxml',
             __dirname + '/template/wxapp/we7/pages/index/index.wxss',
         ];
-        console.log(copy);
         copy.map((file, index) => {
             fs.copy(file, files[index], (err, data) => {
                 // console.log(err,files[index]);
