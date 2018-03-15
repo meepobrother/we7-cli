@@ -99,6 +99,9 @@ function needCompolier(file = '') {
         || file.indexOf('.wxss') > -1
         || file.indexOf('.png') > -1
         || file.indexOf('.wxml') > -1
+        || file.indexOf('.html') > -1
+        || file.indexOf('.css') > -1
+        || file.indexOf('.js') > -1
     ) {
         return false;
     } else {
