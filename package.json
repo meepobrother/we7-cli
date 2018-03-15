@@ -5,7 +5,8 @@
   "title": "模块生成工具",
   "main": "index.js",
   "scripts": {
-    "git": "git add . && git commit -m 'update' && git push origin master"
+    "clear": "find ./ -name '.DS_Store' |xargs rm -rf",
+    "git": "yarn clear && git add . && git commit -m 'update' && git push origin master"
   },
   "bin": {
     "we7": "./bin/we7.js"
