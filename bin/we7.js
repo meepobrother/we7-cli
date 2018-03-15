@@ -9,6 +9,8 @@ const table = require('../src/table');
 
 const web = require('../src/web');
 const mobile = require('../src/mobile');
+const wxapp = require('../src/wxapp');
+
 const path = process.cwd();
 program
     .command('init')
@@ -69,5 +71,18 @@ program
             jsonfile = path + '/package.json';
         }
         mobile.run(name, jsonfile);
+    });
+program
+    .command('wxapp')
+    .description('创建小程序')
+    .alias('wi')
+    .action((jsonfile) => {
+        if (typeof jsonfile === 'string') {
+            jsonfile = path + '/' + jsonfile;
+        } else {
+            jsonfile = path + '/package.json';
+        }
+        init.run(jsonfile);
+        wxapp.run(jsonfile);
     });
 program.parse(process.argv);

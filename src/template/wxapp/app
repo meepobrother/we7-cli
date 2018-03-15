@@ -1,0 +1,14 @@
+{
+	"pages": [
+		{{#each pages}}
+		"{{../modulename}}/pages/{{path}}/{{path}}",
+		{{/each}}
+	],
+	"window": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "{{title}}",
+		"navigationBarBackgroundColor": "#000",
+		"backgroundColor": "#f5f5f5",
+		"enablePullDownRefresh": true
+	}
+}

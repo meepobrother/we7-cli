@@ -1,6 +1,6 @@
 {
   "name": "we7-cli",
-  "modulename": "We7-cli",
+  "modulename": "We7_cli",
   "version": "1.0.8",
   "description": "用于模块生成的一个命令行工具",
   "title": "模块生成工具",
@@ -33,6 +33,16 @@
     {
       "title": "首页",
       "do": "index"
+    }
+  ],
+  "pages": [
+    {
+      "title": "首页",
+      "path": "index"
+    },
+    {
+      "title": "我的",
+      "path": "home"
     }
   ]
 }
